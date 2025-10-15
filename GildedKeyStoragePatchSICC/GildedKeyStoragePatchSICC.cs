@@ -13,7 +13,7 @@ namespace GildedKeyStoragePatchSICC;
 public record ModMetadata : AbstractModMetadata
 {
     public override string ModGuid { get; init; } = "lazzerix.GildedKeyStoragePatchSICC";
-    public override string Name { get; init; } = "Gilded Key Storage Allow In SICC";
+    public override string Name { get; init; } = "Allow Gilded Key Storage In SICC";
     public override string Author { get; init; } = "Lazzerix";
     public override List<string>? Contributors { get; init; }
     public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
